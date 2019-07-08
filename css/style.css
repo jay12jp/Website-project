@@ -1,0 +1,86 @@
+/* RESET */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+@media only screen and (max-width: 600px) {
+  /* Code goes in here */
+
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-center {
+  background: rgba(45,45,45,0.98);
+  color: #FFFFFF;
+  padding: 2px;
+  font-size: 20px;
+}
+.navbar-center span {
+  margin: 5px;
+}
+.navbar-center span:hover {
+  color: rgba(128,128,128,0.9);
+}
+
+.main-page-4-tile {
+  margin-top: 100px;
+}
+
+.tile-1 {
+  background-color: violet;
+  width: 655px;
+  height: 200px;
+}
+.tile-2 {
+  background-color: indigo;
+  width: 655px;
+  height: 200px;
+}
+.tile-3 {
+  background-color: orange;
+  width: 655px;
+  height: 200px;
+}
+.tile-4 {
+  background-color: red;
+  width: 655px;
+  height: 200px;
+}
+.box-logo {
+  width: 20px;
+  height: 20px;
+  border: 20px solid black;
+  border-radius: 50%;
+}
+.box-logo h1{
+  text-align: center;
+}
+/* STYLING FOR NORTH-EAST PAGE */
+
+.states-box img {
+  width: 300px;
+  height: 300px;
+  padding: 10px 10px 10px 10px;
+}
+.states-box h2 {
+  text-align: center;
+}
