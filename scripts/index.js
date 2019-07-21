@@ -1,51 +1,12 @@
 $(document).ready(function(){
 
-// CONTROL MOBILE Menu
-$('.mobile-menu').on('click', function() {
-  $('.Navbar-link-container').slideToggle();
-});
-
-$(window).on('resize', function() {
-  var screenWidth = $(window).width();
-  if (screenWidth > 600) {
-    $('.Navbar-link-container').css('display', 'inherit');
-  } else {
-    $('.Navbar-link-container').css('display', 'none');
-  }
-});
-
-// CONTROL MOBILE MENUE ENDS HERE
-
-//SLICK CAROUSEL STARTS HERE
-
-$('.Gallery-container').slick({
-  infinite: true,
-  slidesToShow: 2,
-  slidesToScroll: 1,
-  dots: false,
-});
-
-//SLICK CA8/ROUSEL ENDS HERE
-
-//SEARCH BOX STARTS HERE
-
-// $("#tags").on("input",function(){
-//   console.log($(this).val());
-// });
-
 /**
- * this function does blah blah blah
- * @name nameOfFunction
- * @param
-*/
-/*
-*
+ * This is a search box dropdown menu jquery code
+ * @tags When you focus on search button states are displayed
+ * The states data is been retrieved from data.js
 */
 $("#tags").on("focus",function(){
-  // console.log("it focused");
   var states = Object.keys(stateNames);
-  // // implement dropdown with states
-//overflow hidden try to use that
   var $dropdown = $('.states-dropdown');
   $dropdown.css('height', '400px');
 
@@ -55,11 +16,13 @@ $("#tags").on("focus",function(){
     $div.text(state);
     $('.states-dropdown').append($div);
   });
-  // $dropdown.append(states);
-  // console.log(states);
 });
+//Code Ends here
 
 //Scrolling for state-boxes in search box
+/**
+ * @Scroll This is Scrolling for state-boxes in search box jquery code
+*/
 $(document).on('click', '.search-box-states', function(){
   var $searchBoxStates = $(this);
   var section = $searchBoxStates.attr('data-state');
@@ -68,6 +31,7 @@ $(document).on('click', '.search-box-states', function(){
   var position = $section.position();
   $('html, body').animate({ scrollTop: position.top }, 1000)
 });
+//Code Ends here
 
 $(document).on("click", function(event){
   var $target = $(event.target);
@@ -81,12 +45,10 @@ $(document).on("click", function(event){
   }
 
 });
+//Code Ends Here
 
-
-
-//SEARCH BOX ENDS HERE
 /**
-  * @Scroll Section starts here
+  * @Scrollbutton This is a scroll code for all the nav buttons
 */
 $('.scroll-btn').click(function(event) {
     var $btn = $(this);
@@ -96,19 +58,18 @@ $('.scroll-btn').click(function(event) {
     var navHeight = $('.navbar').height();
     console.log($section.position());
 
-    $('html, body').animate({ scrollTop: postion.top - navHeight }, 1000);
+    $('html, body').animate({ scrollTop: postion.top}, 1000);
   });
+//Code Ends Here
+//Main Page code Ends here
 
-//Calling states box images
-// for(var i in stateNames) {
-//   var states = stateNames[i];
-//   var $statesBoxImages = $('.states-box-images');
-//   $('.states-box-images').click(function(){
-//     var statesImg = $('<img>');
-//     $statesImg.attr('src', states.images);
-//     $statesBoxImages.append($statesImg);
-//   });
-// }
+//CODES FOR NORTH-EAST,MID-WEST,SOUTH,WEST
+/**
+  * @Statesimages This is jQuery code, when you click on state tiles
+  *               images are displayed
+  * MODAL CODE
+*/
+
 $('.states-box-images').on('click', function() {
   var $statesBoxImages = $(this);
   var stateName = $statesBoxImages.attr('data-state');
@@ -119,10 +80,22 @@ $('.states-box-images').on('click', function() {
   function stateImagesBox(stateData) {
     var $statesImg = $('.stateImages-box img');
     $statesImg.attr('src', stateData.images);
+    // When the user clicks on the show modal button, open the modal
     $('.modal-content').addClass('show');
   }
 
-// });
+  // When the user clicks the close button
+  // $('.close').on('click', function() {
+  //   $('.modal-content').removeClass('show');
+  // });
+  //
+  // // When the user clicks anywhere outside of the modal, close it
+  // $(window).on('click', function(event) {
+  //   var targetIsModal = $(event.target).hasClass('modal-content');
+  //   if (targetIsModal) {
+  //     $('.modal-content').removeClass('show');
+  //   }
+//Code Ends Here
 
 
 });
