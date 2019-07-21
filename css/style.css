@@ -14,34 +14,6 @@ img {
   width: 100%;
 }
 
-/* MOBILE */
-
-@media only screen and (max-width: 600px) {
-  /* Code goes in here */
-  .Menubar {
-    flex-direction: column;
-  }
-  .Menubar i {
-    padding: 20px 0px;
-    margin: 0 auto;
-    line-height: 50px;
-  }
-  .Menubar a{
-    text-align: center;
-  }
-  .mobile-menu {
-    display: flex;
-   }
-
-  .Navbar-link-container {
-    display: none;
-   }
-  .Navbar-links {
-    display: flex;
-    flex-direction: column
-   }
-}
-
 h1,{
   font-family: 'Noto Serif', serif;
 }
@@ -66,47 +38,47 @@ h1,{
   flex-direction: column;
 }
 
-/* STYLING FOR MAIN PAGE */
-.navbar {
+/* STYLING FOR MAIN PAGE NAVBAR TO BE FIXED ON EVERY PAGE */
+.Navbar {
  position: fixed;
  width: 100%;
  z-index: 1000;
 }
+
+/* STYLING FOR TOP NAVBAR  */
 .navbar-center {
   background: rgba(45,45,45,0.98);
   color: #FFFFFF;
   padding: 2px 10px;
   font-size: 20px;
 }
-.navbar-center .black-border-bottom  {
+.navbar-center button  {
+  border: none;
+  background: rgba(45,45,45,0.98);
   margin: 15px;
-  padding-left: 50px;
-  text-decoration: none;
+  font-size: 25px;
   color: #FFFFFF;
+  border-top: 0px;
+  border-left: 0;
+  border-right: 0;
   border-bottom: 2px solid transparent;
+  cursor: pointer;
 }
 .navbar-center button:hover {
   border-bottom: 2px solid #FFFFFF;
 }
 
-/* .section {
-  width: 100%;
-  height: 900px;
-  text-align: center;
-  padding: 30px 0px;
-} */
-
-/* STYLING FOR SEARCH_BOX IN MAIN PAGE */
+/* STYLING FOR SEARCH BOX IN MAIN PAGE */
 
 .search-box {
   padding-left: 100px;
-  line-height: 50px;
+  line-height: 65px;
 }
 
 .search-box:hover  > .search-txt {
   background: rgba(45,45,45,0.98);
-  width: 250px;
-  padding: 0 6px;
+  width: 240px;
+  padding: 5px 2px;
   border-radius: 50px;
 }
 
@@ -115,71 +87,45 @@ h1,{
   background: none;
   outline: none;
   float: left;
-  line-height: 48px;
+  line-height: 40px;
   font-size: 16px;
   transition: 0.4s;
   width: 0px;
 }
 
-.search-btn {
-  transition: 0.1s;
-}
-.fa-search {
-  color: #FFFFFF;
-}
-
-/* .search-box {
-  color: rgba(45,45,45,0.98);
-}
-
-.search-box:hover > .search-txt {
-  width: 240px;
-  padding: 0 6px;
-}
-
-.search-btn {
-  float: right;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.fa-search {
-  background-color: #2d3436;
-  color: white;
-  padding-bottom: 20px;
-}
-
-.search-txt {
-  border: none;
-  background: none;
-  outline: none;
-  float: left;
-  padding: 0;
-  color: white;
-  font-size: 16px;
-  transition: 0.4s;
-  width: 0px;
-} */
+/* STYLING FOR SEARCH BOX DROPDOWN */
 
 .states-dropdown {
   overflow: scroll;
   height: 0px;
   width: 300px;
   position: absolute;
-  background-color: red;
+  background-color: rgba(45,45,45,0.98);
+  cursor: pointer;
 }
 
+/* STYLING FOR MAIN PAGE HEADING */
+
 .main-page-title {
+  padding: 80px;
+  font-size: 36px;
+  /* background-color: red; */
+
+}
+
+.main-page-title i {
+  font-size: 36px;
+  border-color: blue;
+  border-radius: 50%;
+}
+
+/* .main-page-title {
   font-size: 36px;
   padding: 20px 10px;
   height: 5px;
   width: 100%;
-  text-decoration: underline;
-}
+  line-height: 20px;
+} */
 
 .social-icons > .fas,.fab{
   font-size: 30px;

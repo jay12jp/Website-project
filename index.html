@@ -9,13 +9,20 @@
   <!-- RESET -->
   <link rel="stylesheet" href="vendor/reset/reset.css">
 
+  <!-- STYLING -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- SLICK SLIDER CSS -->
+  <link rel="stylesheet" href="vendor/slick/slick/slick.css">
+
+  <!-- SLICK SLIDER CSS -->
+  <link rel="stylesheet" href="vendor/slick/slick/slick-theme.css">
+
+  <!-- GOOGLE MINIFIED SCRIPTS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700i&display=swap" rel="stylesheet">
-
-  <!-- STYLING -->
-  <link rel="stylesheet" href="css/style.css">
 
   <!-- FONT-AWESOME SCRIPT -->
   <script src="https://kit.fontawesome.com/b169b11cfd.js"></script>
@@ -23,9 +30,10 @@
   <!-- INCLUDE JQUERY LOCALLY -->
   <script src="vendor/jquery/jquery.js"></script>
 
+  <!-- SLICK SLIDER JS -->
   <script src="vendor/slick/slick/slick.min.js"></script>
 
-  <!-- LOAD YOU DATA -->
+  <!-- LOAD YOU DATA SCRIPT FILE -->
   <script src="scripts/data.js"></script>
 
   <!-- INCLUDE LOCAL SCRIPT FILE -->
@@ -35,143 +43,140 @@
 
 <body>
 
-  <nav class="navbar">
+  <!-- HOME PAGE STARTS HERE -->
+  <nav class="Navbar">
     <div class="navbar-center flex-center">
-        <!-- NAVBAR FOR HAMBURGER MENU -->
-      <nav class="Menubar">
-        <div class="mobile-menu">
-          <i class="fas fa-bars"></i>
-        </div>
-        <div class="Navbar-link-container flex">
-          <div class="Navbar-links">
-            <a href="#">North-East</a>
-            <a href="#">Mid-West</a>
-            <a href="#">South</a>
-            <a href="#">West</a>
-          </div>
-        </div>
-      </nav>
-      <!-- Code for menu end here -->
-      <!-- <a class="black-border-bottom" href="north-east.html"> -->
-        <button class="scroll-btn" data-section="section-1">North-East</button>
-      <!-- </a> -->
-      <a class="black-border-bottom" href="mid-west.html" target="_blank">
-        <button class="scroll-btn" data-section="section-2">Mid-West</button>
-      </a>
-      <a class="black-border-bottom" href="south.html" target="_blank">
-        <button class="scroll-btn" data-section="section-3">South</button>
-      </a>
-      <a class="black-border-bottom" href="west.html" target="_blank">
-        <button class="scroll-btn" data-section="section-4">West</button>
-      </a>
-      <a class="black-border-bottom" href="gallery.html" target="_blank">
-        <button class="scroll-btn" data-section="section-5">Gallery</button>
-      </a>
 
-      <!-- <span class="north-east-region">North-East</span>
-      <span class="mid-west-region">Mid-West</span>
-      <span class="south-region">South</span>
-      <span class="west-region">West</span> -->
-      <div class="search-box">
-        <input id="tags" class="search-txt flex-end" type="text" name="" placeholder="Search states in United States">
-            <i class="fas fa-search"></i>
-            <div class="states-dropdown flex-column"></div>
+  <!-- NAVBAR FOR HAMBURGER MENU IS PENDING -->
+  <!-- <nav class="navbar-hamburger-menubar">
+    <div class="navbar-mobile-menu">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="navbar-link-container flex">
+      <div class="navbar-links">
+        <div class="scroll-btn" data-section="section-1">North-East</div>
+        <div class="scroll-btn" data-section="section-2">Mid-West</div>
+        <div class="scroll-btn" data-section="section-3">South</div>
+        <div class="scroll-btn" data-section="section-4">West</div>
+        <div class="scroll-btn" data-section="section-5">Gallery</div>
       </div>
-   </nav>
+    </div>
+  </nav> -->
+  <!-- HAMBURGER MENU ENDS HERE -->
 
-  <!-- Main Page 4 tiles -->
-  <div class="main-page-title flex-center">
+  <!-- TOP NAVIGATION STARTS HERE -->
+    <button class="scroll-btn" data-section="section-1">North-East</button>
+    <button class="scroll-btn" data-section="section-2">Mid-West</button>
+    <button class="scroll-btn" data-section="section-3">South</button>
+    <button class="scroll-btn" data-section="section-4">West</button>
+    <button class="scroll-btn" data-section="section-5">Gallery</button>
+
+    <!-- TOP NAVIGATION SERACH ICON CODE STARTS HERE -->
+    <div class="search-box">
+      <input id="tags" class="search-txt flex-end" type="text" name="" placeholder="Search states in United States">
+      <i class="fas fa-search"></i>
+      <div class="states-dropdown flex-column"></div>
+    </div>
+    <!-- TOP NAVIGATION SERACH ICON CODE ENDS HERE -->
+    </div>
+  </nav>
+  <!-- TOP NAVIGATION ENDS HERE -->
+
+  <!-- MAIN PAGE HEADING CODE STARTS HERE-->
+  <div class="main-page-title flex-column">
+    <div class="main-page-title-heading flex-center">
       <h1>THE BEST DESSERTS IN EVERY STATE</h1>
+    </div>
+  <div class="main-page-title-social flex-center">
+    <div class="fas fa-envelope-square"></div>
   </div>
-  <div class="social-icons">
-    <i class="fab fa-twitter"></i>
-    <i class="fas fa-envelope-square"></i>
   </div>
 
-<div class="main-page-4-tile flex-center flex-wrap">
-  <a href="north-east.html" target="_blank">
-    <div class="tile-1 flex-center">
-      <img class="image" src="images/northeast/north-east.PNG" alt="North-east-region">
-      <div class="middle">
-        <div class="text">North-East</div>
+  <!-- MAIN PAGE HEADING CODE ENDS HERE -->
+
+  <div class="main-page-4-tile flex-center flex-wrap">
+    <!-- <a href="north-east.html" target="_blank"> -->
+      <div class="tile-1 flex-center" data-section="section-1">
+        <img class="image" src="images/northeast/north-east.PNG" alt="North-east-region">
+        <div class="middle">
+          <div class="text">North-East</div>
+        </div>
+      </div>
+    <!-- </a> -->
+    <a href="mid-west.html" target="_blank">
+      <div class="tile-2 flex-center">
+        <img src="images/midwest/mid-west.PNG" alt="Mid-west-region">
+      </div>
+    </a>
+    <a href="south.html" target="_blank">
+      <div class="tile-3 flex-center">
+        <img src="images/south/south.PNG" alt="South-region">
+      </div>
+    </a>
+    <a href="west.html" target="_blank">
+      <div class="tile-4 flex-center">
+        <img src="images/west/west.PNG" alt="West-region">
+      </div>
+    </a>
+  </div>
+
+
+
+  <div id="section-1" class="navbar-center flex-center section">
+    <h1>Welcome to North-East Region</h1>
+  </div>
+
+  <div class="tile-1-new-england flex-wrap">
+    <div class="states-box flex-wrap flex-center">
+      <div class="states-box-images" data-state="Connecticut">
+        <img src="images/northeast/division 1 - new england/Connecticut.jpg" alt="Connecticut">
+        <h2>Connecticut</h2>
+      </div>
+      <div class="states-box-images" data-state="Maine">
+        <img src="images/northeast/division 1 - new england/Maine.jpg" alt="Maine">
+        <h2>Maine</h2>
+      </div>
+      <div class="states-box-images">
+        <img src="images/northeast/division 1 - new england/Massacheusetts.jpg" alt="Massacheusetts">
+        <h2>Massacheusetts</h2>
+      </div>
+      <div class="states-box-images">
+        <img src="images/northeast/division 1 - new england/New Hampshire.jpg" alt="New Hampshire">
+        <h2>New Hampshire</h2>
+      </div>
+      <div class="states-box-images" data-state="New Jersey">
+        <img src="images/northeast/division 2 - mid atlantic/New Jersey.jpg" alt="New Jersey">
+        <h2>New Jersey</h2>
+      </div>
+      <div class="states-box-images">
+        <img src="images/northeast/division 2 - mid atlantic/New York.jpg" alt="New York">
+        <h2>New York</h2>
+      </div>
+      <div class="states-box-images">
+        <img src="images/northeast/division 2 - mid atlantic/Pennsylvania.jpg" alt="Pennsylvania">
+        <h2>Pennsylvania</h2>
+      </div>
+      <div class="states-box-images">
+        <img src="images/northeast/division 1 - new england/Vermont.jpg" alt="Vermont">
+        <h2>Vermont</h2>
       </div>
     </div>
-  </a>
-  <a href="mid-west.html" target="_blank">
-    <div class="tile-2 flex-center">
-      <img src="images/midwest/mid-west.PNG" alt="Mid-west-region">
-    </div>
-  </a>
-  <a href="south.html" target="_blank">
-    <div class="tile-3 flex-center">
-      <img src="images/south/south.PNG" alt="South-region">
-    </div>
-  </a>
-  <a href="west.html" target="_blank">
-    <div class="tile-4 flex-center">
-      <img src="images/west/west.PNG" alt="West-region">
-    </div>
-  </a>
-</div>
 
 
+  </div>
 
-<div id="section-1" class="navbar-center flex-center section">
-  <h1>Welcome to North-East Region</h1>
-  <!-- <a href="mailto:">Click to email</a> -->
-</div>
 
-<div class="tile-1-new-england flex-wrap">
-  <div class="states-box flex-wrap flex-center">
-    <div class="states-box-images" data-state="Connecticut">
-      <img src="images/northeast/division 1 - new england/Connecticut.jpg" alt="Connecticut">
-      <h2>Connecticut</h2>
-    </div>
-    <div class="states-box-images" data-state="Maine">
-      <img src="images/northeast/division 1 - new england/Maine.jpg" alt="Maine">
-      <h2>Maine</h2>
-    </div>
-    <div class="states-box-images">
-      <img src="images/northeast/division 1 - new england/Massacheusetts.jpg" alt="Massacheusetts">
-      <h2>Massacheusetts</h2>
-    </div>
-    <div class="states-box-images">
-      <img src="images/northeast/division 1 - new england/New Hampshire.jpg" alt="New Hampshire">
-      <h2>New Hampshire</h2>
-    </div>
-    <div class="states-box-images" data-state="New Jersey">
-      <img src="images/northeast/division 2 - mid atlantic/New Jersey.jpg" alt="New Jersey">
-      <h2>New Jersey</h2>
-    </div>
-    <div class="states-box-images">
-      <img src="images/northeast/division 2 - mid atlantic/New York.jpg" alt="New York">
-      <h2>New York</h2>
-    </div>
-    <div class="states-box-images">
-      <img src="images/northeast/division 2 - mid atlantic/Pennsylvania.jpg" alt="Pennsylvania">
-      <h2>Pennsylvania</h2>
-    </div>
-    <div class="states-box-images">
-      <img src="images/northeast/division 1 - new england/Vermont.jpg" alt="Vermont">
-      <h2>Vermont</h2>
+  <!-- MODAL GOES HERE -->
+
+  <div class="modal-content">
+    <div class="modal-container">
+      <span class="close">&times;</span>
+      <div class="stateImages-box">
+        <img src="" alt="">
+      </div>
     </div>
   </div>
 
 
-</div>
 
-
-<!-- MODAL GOES HERE -->
-
-<div class="modal-content">
-  <div class="modal-container">
-    <span class="close">&times;</span>
-    <div class="stateImages-box">
-      <img src="" alt="">
-    </div>
-  </div>
-</div>
-
-
-
-</body>
+  </body>
