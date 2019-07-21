@@ -135,7 +135,7 @@
     "region-name": "North East",
     "division-number": "1",
     "division-name": "New England",
-    "images": ".images/assets-images/MAINE- BLUEBERRY PIE.jpeg",
+    "images": "images/assets-images/MAINE- BLUEBERRY PIE.jpeg",
   },
   "Maryland": {
     "region-number": "3",
@@ -149,7 +149,7 @@
     "region-name": "Northeast",
     "division-number": "1",
     "division-name": "New England",
-    "images": ".images/assets-images/MASSACHUSETTS- BOSTON CREAM PIE.jpg",
+    "images": "images/assets-images/MASSACHUSETTS- BOSTON CREAM PIE.jpg",
   },
   "Michigan": {
     "region-number": "2",
@@ -205,14 +205,14 @@
     "region-name": "Northeast",
     "division-number": "1",
     "division-name": "New England",
-    "images": ".images/assets-images/NEW HAMPSHIRE- PUMPKIN PIE BREAD.jpg",
+    "images": "images/assets-images/NEW HAMPSHIRE- PUMPKIN PIE BREAD.jpg",
   },
   "New Jersey": {
     "region-number": "1",
     "region-name": "Northeast",
     "division-number": "2",
     "division-name": "Mid-Atlantic",
-    "images": ".images/assets-images/NEW JERSEY- SALTWATER TAFFY.jpg",
+    "images": "images/assets-images/NEW JERSEY- SALTWATER TAFFY.jpg",
   },
   "New Mexico": {
     "region-number": "4",
@@ -226,7 +226,7 @@
     "region-name": "Northeast",
     "division-number": "2",
     "division-name": "Mid-Atlantic",
-    "images": ".images/assets-images/NEW YORK- CHEESECAKE.jpg",
+    "images": "images/assets-images/NEW YORK- CHEESECAKE.jpg",
   },
   "North Carolina": {
     "region-number": "3",
@@ -268,7 +268,7 @@
     "region-name": "Northeast",
     "division-number": "2",
     "division-name": "Mid-Atlantic",
-    "images": ".images/assets-images/PENNSYLVANIA- WHOOPIE PIES.jpg",
+    "images": "images/assets-images/PENNSYLVANIA- WHOOPIE PIES.jpg",
   },
   "South Carolina": {
     "region-number": "3",
@@ -310,7 +310,7 @@
     "region-name": "Northeast",
     "division-number": "1",
     "division-name": "New England",
-    "images": ".images/assets-images/VERMONT- MAPLE CINNAMON ROLLS.jpg",
+    "images": "images/assets-images/VERMONT- MAPLE CINNAMON ROLLS.jpg",
   },
   "Virginia": {
     "region-number": "3",

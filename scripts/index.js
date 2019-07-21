@@ -63,7 +63,7 @@ $('.scroll-btn').click(function(event) {
 //Code Ends Here
 //Main Page code Ends here
 
-//CODES FOR NORTH-EAST,MID-WEST,SOUTH,WEST
+//CODES FOR NORTH-EAST,MID-WEST,SOUTH,WEST PAGE
 /**
   * @Statesimages This is jQuery code, when you click on state tiles
   *               images are displayed
@@ -85,17 +85,32 @@ $('.states-box-images').on('click', function() {
   }
 
   // When the user clicks the close button
-  // $('.close').on('click', function() {
-  //   $('.modal-content').removeClass('show');
-  // });
-  //
-  // // When the user clicks anywhere outside of the modal, close it
-  // $(window).on('click', function(event) {
-  //   var targetIsModal = $(event.target).hasClass('modal-content');
-  //   if (targetIsModal) {
-  //     $('.modal-content').removeClass('show');
-  //   }
+  $('.close').on('click', function() {
+    $('.modal-content').removeClass('show');
+  });
+
+  // When the user clicks anywhere outside of the modal, close it
+  $(window).on('click', function(event) {
+    var targetIsModal = $(event.target).hasClass('modal-content');
+    if (targetIsModal) {
+      $('.modal-content').removeClass('show');
+    }
+  });
 //Code Ends Here
+
+//CODE FOR GALLERY PAGE STARTS HERE
+/**
+  * @Slick This is slick library code, when you click on state tiles
+*/
+//SLICK CAROUSEL STARTS HERE
+
+$('.Gallery-container').slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  dots: false,
+});
+//SLICK CAROUSEL ENDS HERE
 
 
 });
