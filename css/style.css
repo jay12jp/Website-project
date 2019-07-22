@@ -14,7 +14,7 @@ img {
   width: 100%;
 }
 
-h1 {
+h1,h4 {
   font-family: 'Noto Serif', serif;
   font-size: 30px;
   padding: 20px 0;
@@ -265,6 +265,14 @@ h1 {
 .Gallery-contact-form form-footer {
   background-color: blue;
   padding-bottom: 10px;
+}
+
+.Gallery-copyrights-text h4 {
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  color: #FFFFFF;
+  align-items: center;
+  text-decoration: none;
 }
 
 /* CODING FOR MOBILE AND TABLET SIZES */
