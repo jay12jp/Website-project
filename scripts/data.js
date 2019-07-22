@@ -10,6 +10,7 @@
     "division-number": "6",
     "division-name": "East South Central",
     "images": "images/assets-images/ALABAMA- CREAM CHEESE POUND CAKE.jpg",
+    "image-description": "CREAM CHEESE POUND CAKE",
   },
   "Alaska": {
     "region-number": "4",
@@ -17,6 +18,7 @@
     "division-number": "9",
     "division-name": "Pacific",
     "images": "images/assets-images/ALASKA- INDIVIDUAL BAKED ALASKA.jpg",
+    "image-description": "INDIVIDUAL BAKED ALASKA",
   },
   "Arizona": {
     "region-number": "4",
@@ -24,6 +26,7 @@
     "division-number": "8",
     "division-name": "Mountain",
     "images": "images/assets-images/ARIZONA- MEXICAN WEDDING COOKIES.jpg",
+    "image-description": "MEXICAN WEDDING COOKIES",
   },
   "Arkansas": {
     "region-number": "3",
@@ -31,6 +34,7 @@
     "division-number": "7",
     "division-name": "West South Central",
     "images": "images/assets-images/ARKANSAS- BANANA PUDDING.jpg",
+    "image-description": "BANANA PUDDING",
   },
   "California": {
     "region-number": "4",
@@ -38,6 +42,7 @@
     "division-number": "9",
     "division-name": "Pacific",
     "images": "images/assets-images/CALIFORNIA- WHIPPED CREAM CHEESE FROSTING.jpeg",
+    "image-description": "WHIPPED CREAM CHEESE FROSTING",
   },
   "Colarado": {
     "region-number": "4",
@@ -45,6 +50,7 @@
     "division-number": "8",
     "division-name": "Mountain",
     "images": "images/assets-images/COLORADO- MUG BROWNIE.jpg",
+    "image-description": "MUG BROWNIE",
   },
   "Connecticut": {
     "region-number": "1",
@@ -52,6 +58,7 @@
     "division-number": "1",
     "division-name": "New England",
     "images": "images/assets-images/CONNECTICUT- ANISE COOKIES.jpg",
+    "image-description": "ANISE COOKIES",
   },
   "Delaware": {
     "region-number": "3",
@@ -59,6 +66,7 @@
     "division-number": "5",
     "division-name": "South Atlantic",
     "images": "images/assets-images/DELAWARE- BANANA CAKE.jpg",
+    "image-description": "BANANA CAKE",
   },
   "Florida": {
     "region-number": "3",
@@ -66,6 +74,7 @@
     "division-number": "5",
     "division-name": "South Atlantic",
     "images": "images/assets-images/FLORIDA- KEY LIME PIE.jpg",
+    "image-description": "KEY LIME PIE",
   },
   "Georgia": {
     "region-number": "3",
@@ -73,6 +82,7 @@
     "division-number": "5",
     "division-name": "South Atlantic",
     "images": "images/assets-images/GEORGIA- PEACH COBBLER.jpg",
+    "image-description": "PEACH COBBLER",
   },
   "Hawaii": {
     "region-number": "4",
@@ -80,6 +90,7 @@
     "division-number": "9",
     "division-name": "Pacific",
     "images": "images/assets-images/HAWAII- BUTTER MOCHI.jpeg",
+    "image-description": "BUTTER MOCHI",
   },
   "Idaho": {
     "region-number": "4",
@@ -87,6 +98,7 @@
     "division-number": "8",
     "division-name": "Mountain",
     "images": "images/assets-images/IDAHO- SPUDNUTS.jpg",
+    "image-description": "SPUDNUTS",
   },
   "Illinois": {
     "region-number": "2",
@@ -94,6 +106,7 @@
     "division-number": "3",
     "division-name": "East North Central",
     "images": "images/assets-images/ILLINOIS- BROWNIES.jpg",
+    "image-description": "BROWNIES",
   },
   "Indiana": {
     "region-number": "2",
@@ -101,6 +114,7 @@
     "division-number": "3",
     "division-name": "East North Central",
     "images": "images/assets-images/INDIANA- CHERRY DELIGHT DESSERT.jpg",
+    "image-description": "CHERRY DELIGHT DESSERT",
   },
   "Iowa": {
     "region-number": "2",
@@ -108,6 +122,7 @@
     "division-number": "4",
     "division-name": "West North Central",
     "images": "images/assets-images/IOWA- JELL-O CAKE.jpg",
+    "image-description": "JELL-O CAKE",
   },
   "Kansas": {
     "region-number": "2",
@@ -115,6 +130,7 @@
     "division-number": "4",
     "division-name": "West North Central",
     "images": "images/assets-images/KANSAS- CARAMEL PUFF CORN.jpg",
+    "image-description": "CARAMEL PUFF CORN",
   },
   "Kentucky": {
     "region-number": "3",
@@ -122,6 +138,7 @@
     "division-number": "6",
     "division-name": "East South Central",
     "images": "images/assets-images/KENTUCKY- PEANUT BUTTER FUDGE.jpg",
+    "image-description": "PEANUT BUTTER FUDGE",
   },
   "Louisiana": {
     "region-number": "3",
@@ -129,6 +146,7 @@
     "division-number": "7",
     "division-name": "West South Central",
     "images": "images/assets-images/LOUISIANA- BRENNAN'S BANANAS FOSTER.jpg",
+    "image-description": "BRENNAN'S BANANAS FOSTER",
   },
   "Maine": {
     "region-number": "1",
@@ -136,6 +154,7 @@
     "division-number": "1",
     "division-name": "New England",
     "images": "images/assets-images/MAINE- BLUEBERRY PIE.jpeg",
+    "image-description": "BLUEBERRY PIE",
   },
   "Maryland": {
     "region-number": "3",
@@ -143,6 +162,7 @@
     "division-number": "5",
     "division-name": "South Atlantic",
     "images": "images/assets-images/MARYLAND- SMITH ISLAND CAKE.jpg",
+    "image-description": "SMITH ISLAND CAKE",
   },
   "Massacheusetts": {
     "region-number": "1",
@@ -150,6 +170,7 @@
     "division-number": "1",
     "division-name": "New England",
     "images": "images/assets-images/MASSACHUSETTS- BOSTON CREAM PIE.jpg",
+    "image-description": "BOSTON CREAM PIE",
   },
   "Michigan": {
     "region-number": "2",
@@ -157,6 +178,7 @@
     "division-number": "3",
     "division-name": "East North Central",
     "images": "images/assets-images/MICHIGAN- CHERRY & CHOCOLATE FUDGE.jpg",
+    "image-description": "CHERRY & CHOCOLATE FUDGE",
   },
   "Minnesota": {
     "region-number": "2",
@@ -164,6 +186,7 @@
     "division-number": "4",
     "division-name": "West North Central",
     "images": "images/assets-images/MINNESOTA- SEVEN-LAYER BARS.jpg",
+    "image-description": "SEVEN-LAYER BARS",
   },
   "Mississippi": {
     "region-number": "3",
@@ -171,6 +194,7 @@
     "division-number": "6",
     "division-name": "East South Central",
     "images": "images/assets-images/MISSISSIPPI- SLOW-COOKER CANDY.jpg",
+    "image-description": "SLOW-COOKER CANDY",
   },
   "Missouiri": {
     "region-number": "2",
@@ -178,6 +202,7 @@
     "division-number": "4",
     "division-name": "West North Central",
     "images": "images/assets-images/MISSOURI- GOOEY BUTTER CAKE.jpg",
+    "image-description": "GOOEY BUTTER CAKE",
   },
   "Montana": {
     "region-number": "4",
@@ -185,6 +210,7 @@
     "division-number": "8",
     "division-name": "Mountain",
     "images": "images/assets-images/MONTANA- HOMEMADE ALMOND ROCA.jpg",
+    "image-description": "HOMEMADE ALMOND ROCA",
   },
   "Nebraska": {
     "region-number": "2",
@@ -192,6 +218,7 @@
     "division-number": "4",
     "division-name": "West North Central",
     "images": "images/assets-images/NEBRASKA- CREAM CHEESE MINTS.jpg",
+    "image-description": "CREAM CHEESE MINTS",
   },
   "Nevada": {
     "region-number": "4",
@@ -199,6 +226,7 @@
     "division-number": "8",
     "division-name": "Mountain",
     "images": "images/assets-images/NEVADA- VANILLA CUPCAKES.jpg",
+    "image-description": "VANILLA CUPCAKES",
   },
   "New Hampshire": {
     "region-number": "1",
@@ -206,6 +234,7 @@
     "division-number": "1",
     "division-name": "New England",
     "images": "images/assets-images/NEW HAMPSHIRE- PUMPKIN PIE BREAD.jpg",
+    "image-description": "PUMPKIN PIE BREAD",
   },
   "New Jersey": {
     "region-number": "1",
@@ -213,6 +242,7 @@
     "division-number": "2",
     "division-name": "Mid-Atlantic",
     "images": "images/assets-images/NEW JERSEY- SALTWATER TAFFY.jpg",
+    "image-description": "SALTWATER TAFF",
   },
   "New Mexico": {
     "region-number": "4",
@@ -220,6 +250,7 @@
     "division-number": "8",
     "division-name": "Mountain",
     "images": "images/assets-images/NEW MEXICO- NATILLAS.jpg",
+    "image-description": "NATILLAS",
   },
   "New York": {
     "region-number": "1",
@@ -227,6 +258,7 @@
     "division-number": "2",
     "division-name": "Mid-Atlantic",
     "images": "images/assets-images/NEW YORK- CHEESECAKE.jpg",
+    "image-description": "CHEESECAKE",
   },
   "North Carolina": {
     "region-number": "3",
@@ -234,6 +266,7 @@
     "division-number": "5",
     "division-name": "South Atlantic",
     "images": "images/assets-images/NORTH CAROLINA- SWEET POTATO PIE.jpg",
+    "image-description": "SWEET POTATO PIE",
   },
   "North Dakota": {
     "region-number": "2",
@@ -241,6 +274,7 @@
     "division-number": "4",
     "division-name": "West North Central",
     "images": "images/assets-images/NORTH DAKOTA- CARAMEL ROLLS.jpg",
+    "image-description": "CARAMEL ROLLS",
   },
   "Ohio": {
     "region-number": "2",
@@ -248,6 +282,7 @@
     "division-number": "3",
     "division-name": "East North Central",
     "images": "images/assets-images/OHIO- BUCKEYES.jpeg",
+    "image-description": "BUCKEYE",
   },
   "Oklahoma": {
     "region-number": "3",
@@ -255,6 +290,7 @@
     "division-number": "7",
     "division-name": "West South Central",
     "images": "images/assets-images/OKLAHOMA- CHOCOLATE DELIGHT.jpg",
+    "image-description": "CHOCOLATE DELIGHT",
   },
   "Oregan": {
     "region-number": "4",
@@ -262,6 +298,7 @@
     "division-number": "9",
     "division-name": "Pacific",
     "images": "images/assets-images/OREGON- APPLE & BLACKBERRY PIE.jpg",
+    "image-description": "APPLE & BLACKBERRY PIE",
   },
   "Pennsylvania": {
     "region-number": "1",
@@ -269,6 +306,7 @@
     "division-number": "2",
     "division-name": "Mid-Atlantic",
     "images": "images/assets-images/PENNSYLVANIA- WHOOPIE PIES.jpg",
+    "image-description": "WHOOPIE PIES",
   },
   "South Carolina": {
     "region-number": "3",
@@ -276,6 +314,7 @@
     "division-number": "5",
     "division-name": "South Atlantic",
     "images": "images/assets-images/SOUTH CAROLINA- CHOCOLATE-DIPPED PEANUT BUTTER BALLS.jpg",
+    "image-description": "CHOCOLATE-DIPPED PEANUT BUTTER BALLS",
   },
   "South Dakota": {
     "region-number": "2",
@@ -283,6 +322,7 @@
     "division-number": "4",
     "division-name": "West North Central",
     "images": "images/assets-images/SOUTH DAKOTA- KUCHEN.jpg",
+    "image-description": "KUCHEN",
   },
   "Tennesse": {
     "region-number": "3",
@@ -290,6 +330,7 @@
     "division-number": "6",
     "division-name": "East South Central",
     "images": "images/assets-images/TENNESSEE- MOON PIES.jpg",
+    "image-description": "MOON PIES",
   },
   "Texas": {
     "region-number": "3",
@@ -297,6 +338,7 @@
     "division-number": "7",
     "division-name": "West South Central",
     "images": "images/assets-images/TEXAS- PECAN PIE.jpg",
+    "image-description": "PECAN PIE",
   },
   "Utah": {
     "region-number": "4",
@@ -304,6 +346,7 @@
     "division-number": "8",
     "division-name": "Mountain",
     "images": "images/assets-images/UTAH- JELL-O FLUFF DESSERT.jpg",
+    "image-description": "JELL-O FLUFF DESSERT",
   },
   "Vermont": {
     "region-number": "1",
@@ -311,6 +354,7 @@
     "division-number": "1",
     "division-name": "New England",
     "images": "images/assets-images/VERMONT- MAPLE CINNAMON ROLLS.jpg",
+    "image-description": "MAPLE CINNAMON ROLLS",
   },
   "Virginia": {
     "region-number": "3",
@@ -318,6 +362,7 @@
     "division-number": "5",
     "division-name": "South Atlantic",
     "images": "images/assets-images/VIRGINIA- LEMON CHESS PIE.jpg",
+    "image-description": "LEMON CHESS PIE",
   },
   "Washington": {
     "region-number": "4",
@@ -325,13 +370,15 @@
     "division-number": "9",
     "division-name": "Pacific",
     "images": "images/assets-images/WASHINGTON- NANAIMO BARS.jpg",
+    "image-description": "NANAIMO BARS",
   },
   "Washington DC": {
     "region-number": "3",
     "region-name": "South",
     "division-number": "5",
     "division-name": "South Atlantic",
-    "images": "images/assets-images/WASHINGTON- NANAIMO BARS.jpg",
+    "images": "images/assets-images/WASHINGTON D.C.-DOLCEZZA-GELATO.png",
+    "image-description": "DOLCEZZA-GELATO",
   },
   "West Virginia": {
     "region-number": "3",
@@ -339,6 +386,7 @@
     "division-number": "5",
     "division-name": "South Atlantic",
     "images": "images/assets-images/WEST VIRGINIA- PEANUT BUTTER NO-BAKE COOKIES.jpg",
+    "image-description": "PEANUT BUTTER NO-BAKE COOKIE",
   },
   "Wisconsin": {
     "region-number": "2",
@@ -346,6 +394,7 @@
     "division-number": "3",
     "division-name": "East North Central",
     "images": "images/assets-images/WISCONSIN- KRINGLE.jpg",
+    "image-description": "KRINGLE",
   },
   "Wyoming": {
     "region-number": "4",
@@ -353,5 +402,6 @@
     "division-number": "8",
     "division-name": "Mountain",
     "images": "images/assets-images/WYOMING- COWBOY COOKIES.jpg",
+    "image-description": "COWBOY COOKIES",
   }
 }

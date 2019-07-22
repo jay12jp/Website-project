@@ -14,8 +14,14 @@ img {
   width: 100%;
 }
 
-h1,{
+h1 {
   font-family: 'Noto Serif', serif;
+  font-size: 30px;
+  padding: 20px 0;
+  color: white;
+  background-color: #2d3436;
+  width: 100%;
+  text-align: center;
 }
 
 /* FLEX */
@@ -38,6 +44,8 @@ h1,{
   display: flex;
   flex-direction: column;
 }
+
+/* STYLING FOR MAIN PAGE HEADING */
 
 /* STYLING FOR MAIN PAGE NAVBAR TO BE FIXED ON EVERY PAGE */
 .Navbar {
@@ -118,6 +126,11 @@ h1,{
   width: 500px;
   height: 294px;
   padding: 10px 30px;
+}
+
+.fa-envelope-square:before {
+  text-decoration: none;
+  color : #17202A;
 }
 
 /* STYLING FOR NORTH-EAST PAGE,MID-WEST PAGE,SOUTH PAGE,WEST PAGE */
@@ -257,7 +270,7 @@ h1,{
 /* CODING FOR MOBILE AND TABLET SIZES */
 
 /* NAVBAR FOR HAMBURGER MENU */
-.navbar-mobile-menu {
+.navbar-hamburger-menubar {
   display: none;
 }
 
@@ -267,26 +280,39 @@ h1,{
   padding: 20px;
 }
 
+/* SLICK STYLING */
+.slick-prev:before, .slick-next:before {
+  color: #000;
+}
+
 /* MOBILE */
 @media screen and (max-width: 600px) {
+  /* hide desltop nav*/
+  .navbar-desktop-menubar {
+    display: none;
+  }
+
   .navbar-hamburger-menubar {
+    display: flex;
     flex-direction: column;
   }
   .navbar-hamburger-menubar i {
     padding: 20px 0px;
     margin: 0 auto;
   }
-  .navbar-hamburger-menubar > .navbar-links{
+  .navbar-hamburger-menubar > .navbar-links {
     text-align: center;
-    background-color: red;
+    /* background-color: red; */
   }
 
-  .Navbar-mobile-menu {
+  /* NOTE this was capitalized*/
+  .navbar-mobile-menu {
     display: flex;
+    flex-direction: column;
   }
   .Navbar-link {
     /* flex-direction: column; */
-    display: none;
+    /* display: none; */
   }
 
   .Navbar-links {

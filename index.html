@@ -9,14 +9,14 @@
   <!-- RESET -->
   <link rel="stylesheet" href="vendor/reset/reset.css">
 
-  <!-- STYLING -->
-  <link rel="stylesheet" href="css/style.css">
-
   <!-- SLICK SLIDER CSS -->
   <link rel="stylesheet" href="vendor/slick/slick/slick.css">
 
   <!-- SLICK SLIDER CSS -->
   <link rel="stylesheet" href="vendor/slick/slick/slick-theme.css">
+
+  <!-- STYLING -->
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- GOOGLE MINIFIED SCRIPTS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -48,7 +48,7 @@
     <div class="navbar-center flex-center">
 
   <!-- NAVBAR FOR HAMBURGER MENU-->
-  <!-- <nav class="navbar-hamburger-menubar">
+  <nav class="navbar-hamburger-menubar">
     <div class="navbar-mobile-menu">
       <i class="fas fa-bars"></i>
     </div>
@@ -62,10 +62,11 @@
         <div class="scroll-btn" data-section="section-5">Gallery</div>
       </div>
     </div>
-  </nav> -->
+  </nav>
   <!-- HAMBURGER MENU ENDS HERE -->
 
   <!-- TOP NAVIGATION STARTS HERE -->
+  <nav class="navbar-desktop-menubar flex-center">
     <button class="scroll-btn" data-section="section-home-page"><i class="fas fa-home"></i></button>
     <button class="scroll-btn" data-section="section-1">North-East</button>
     <button class="scroll-btn" data-section="section-2">Mid-West</button>
@@ -73,12 +74,13 @@
     <button class="scroll-btn" data-section="section-4">West</button>
     <button class="scroll-btn" data-section="section-5">Gallery</button>
 
-    <!-- TOP NAVIGATION SERACH ICON CODE STARTS HERE -->
-    <div class="search-box">
-      <input id="tags" class="search-txt flex-end" type="text" name="" placeholder="Search states in United States">
-      <i class="fas fa-search"></i>
-      <div class="states-dropdown flex-column"></div>
-    </div>
+      <!-- TOP NAVIGATION SERACH ICON CODE STARTS HERE -->
+      <div class="search-box">
+        <input id="tags" class="search-txt flex-end" type="text" name="" placeholder="Search states in United States">
+        <i class="fas fa-search"></i>
+        <div class="states-dropdown flex-column"></div>
+      </div>
+    </nav>
     <!-- TOP NAVIGATION SERACH ICON CODE ENDS HERE -->
     </div>
   </nav>
@@ -90,7 +92,9 @@
       <h1>THE BEST DESSERTS IN EVERY STATE</h1>
     </div>
   <div class="main-page-title-social flex-center">
-    <div class="fas fa-envelope-square"></div>
+    <a href="mailto:?subject= The BEST DESSERTS IN EVERY STATE | UNITED STATES&body=Please check this website that show best desserts in every state">
+      <div class="fas fa-envelope-square"></div>
+    </a>
   </div>
   </div>
 
@@ -131,7 +135,7 @@
     <!-- NORTH EAST PAGE STARTS HERE -->
 
     <!-- NORTH EAST PAGE HEADING GOES HERE -->
-  <div id="section-1" class="north-east-page-heading">
+  <div id="section-1" class="north-east-page-heading flex-center">
     <h1>Welcome to North-East Region</h1>
   </div>
   <!-- NORTH EAST PAGE HEADING ENDS HERE -->
@@ -177,7 +181,7 @@
     <!-- MID WEST PAGE STARTS HERE -->
 
     <!-- MID WEST PAGE HEADING GOES HERE -->
-  <div id="section-2" class="north-east-page-heading">
+  <div id="section-2" class="north-east-page-heading flex-center">
     <h1>Welcome to Mid-West Region</h1>
   </div>
   <!-- MID WEST PAGE HEADING ENDS HERE -->
@@ -238,7 +242,7 @@
 
     <!-- SOUTH PAGE STARTS HERE -->
     <!-- SOUTH PAGE HEADING GOES HERE -->
-  <div id="section-3" class="north-east-page-heading">
+  <div id="section-3" class="north-east-page-heading flex-center">
     <h1>Welcome to South Region</h1>
   </div>
   <!-- SOUTH PAGE HEADING ENDS HERE -->
@@ -316,7 +320,7 @@
     <!-- WEST PAGE STARTS HERE -->
 
     <!-- WEST PAGE HEADING GOES HERE -->
-  <div id="section-4" class="north-east-page-heading">
+  <div id="section-4" class="north-east-page-heading flex-center">
     <h1>Welcome to West Region</h1>
   </div>
   <!-- WEST PAGE HEADING ENDS HERE -->
