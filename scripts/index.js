@@ -112,5 +112,27 @@ $('.Gallery-container').slick({
 });
 //SLICK CAROUSEL ENDS HERE
 
+//CODE FOR GALLERY PAGE STARTS HERE
+/**
+  * @ScreensizeforMobile This is jQuery code, when you see the Website
+  *                      on phones
+*/
+
+// MOBILE MENU
+$('.navbar-mobile-menu').on('click',function(){
+  // console.log('click');
+  $('.Navbar-link-container').slideToggle();
+});
+
+$(window).on('resize',function(){
+  // console.log('We resize');
+  var screenWidth = $(window).width();
+  if (screenWidth > 600) {
+  $('.Navbar-link-container').css('display','inherit');
+} else {
+  $('.Navbar-link-container').css('display','none');
+  }
+
+});
 
 });
