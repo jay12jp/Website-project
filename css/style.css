@@ -45,8 +45,6 @@ h1 {
   flex-direction: column;
 }
 
-/* STYLING FOR MAIN PAGE HEADING */
-
 /* STYLING FOR MAIN PAGE NAVBAR TO BE FIXED ON EVERY PAGE */
 .Navbar {
  position: fixed;
@@ -128,9 +126,11 @@ h1 {
   padding: 10px 30px;
 }
 
-.fa-envelope-square:before {
+.fas.fa-envelope-square::before,.fa-twitter-square:before {
   text-decoration: none;
   color : #17202A;
+  font-size: 50px;
+  padding: 0px 10px;
 }
 
 /* STYLING FOR NORTH-EAST PAGE,MID-WEST PAGE,SOUTH PAGE,WEST PAGE */
@@ -285,6 +285,7 @@ h1 {
   color: #000;
 }
 
+
 /* MOBILE */
 @media screen and (max-width: 600px) {
   /* hide desltop nav*/
@@ -302,17 +303,11 @@ h1 {
   }
   .navbar-hamburger-menubar > .navbar-links {
     text-align: center;
-    /* background-color: red; */
   }
 
-  /* NOTE this was capitalized*/
   .navbar-mobile-menu {
     display: flex;
     flex-direction: column;
-  }
-  .Navbar-link {
-    /* flex-direction: column; */
-    /* display: none; */
   }
 
   .Navbar-links {
