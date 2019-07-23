@@ -56,9 +56,10 @@ $('.scroll-btn').click(function(event) {
     var $section = $('#' + section);
     var postion = $section.position();
     var navHeight = $('.navbar').height();
+
     console.log($section.position());
 
-    $('html, body').animate({ scrollTop: postion.top}, 1000);
+    $('html, body').animate({ scrollTop: postion.top }, 1000);
   });
 //Code Ends Here
 //Main Page code Ends here
